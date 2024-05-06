@@ -1,4 +1,4 @@
-# React Native "expo-camera/next"
+# React Native "expo-camera"
 
 This project demonstrates the use of the `expo-camera/next` module in a React Native application managed by Expo. It includes features for handling camera permissions and toggling the camera between front and back.
 
@@ -35,8 +35,9 @@ module.exports = async function(env, argv) {
 
   return config;
 };
-This configuration ensures that whenever something requires crypto, crypto-browserify is used if crypto is not found in list of dependencies (A fallback).
 ```
+
+This configuration ensures that whenever something requires crypto, crypto-browserify is used if crypto is not found in list of dependencies (A fallback).
 
 ## Usage
 
