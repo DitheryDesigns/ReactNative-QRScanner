@@ -33,3 +33,6 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# cutom scripts (Grub)
+reset_repo.sh
